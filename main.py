@@ -6,12 +6,12 @@ import streamlit as st
 
 
 pickle_dtree=open("crop_pred_dtree.pkl","rb")
-pickle_ran=open("crop_pred_rand.pkl","rb")
+#pickle_ran=open("crop_pred_rand.pkl","rb")
 pickle_knn=open("crop_pred_knn.pkl","rb")
 pickle_svm=open("crop_pred_svc.pkl","rb")
 
 classifier=pickle.load(pickle_dtree)
-classifier1=pickle.load(pickle_ran)
+#classifier1=pickle.load(pickle_ran)
 classifier2=pickle.load(pickle_knn)
 classifier3=pickle.load(pickle_svm)
 
